@@ -25,7 +25,7 @@ export default function App() {
   return (
     <div>
       {/* Table One */}
-      <table>
+      <table id="tableOne">
         <thead>
           <tr>
             <th>Index</th>
@@ -43,7 +43,7 @@ export default function App() {
       </table>
 
       {/* Table Two */}
-      <table>
+      <table id="tableTwo">
         <thead>
           <tr>
             <th>Category</th>
